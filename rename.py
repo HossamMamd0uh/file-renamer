@@ -13,6 +13,6 @@ i = 1
 for file in files:
     filename, file_extension = os.path.splitext(file)
     
-    #Replace hello with the name you want
-    os.rename(os.path.join(path, file), os.path.join(path, "hello" + str(i) + file_extension))
+    #Replace Project with the name you want
+    os.rename(os.path.join(path, file), os.path.join(path, "Project" + str(i) + file_extension))
     i = i+1
